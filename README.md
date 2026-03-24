@@ -53,7 +53,7 @@ if (numero >= 100){
 DESAFIO 4: Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 ```javascript
 let saldo = 500;
-alert (`Seu saldo é de ${saldo}`);
+alert (`Seu saldo é de R$${saldo}`);
 ```
 DESAFIO 5: Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 ```javascript
