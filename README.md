@@ -20,6 +20,8 @@ if (idadeDoUsuario >= 18){
     alert('Menor de idade não tira habilitação😑');
 }
 ```
+➤ Condicionais e concatenação
+
 DESAFIO 1: Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 ```javascript
 let dia = prompt ('Que dia é hoje?');
@@ -59,4 +61,43 @@ DESAFIO 5: Peça ao usuário para inserir seu nome usando prompt. Em seguida, mo
 ```javascript
 let nomeUsuario = prompt ('Qual o seu nome?');
 alert (`Seja bem vindo(a) ${nomeUsuario}!😁`);
+```
+➤ Loops e tentativas
+
+DESAFIO 1: Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+```javascript
+let contador = 1;
+
+while (contador <= 10) {
+    alert (`Contador: ${contador}`);
+    contador++
+}
+```
+DESAFIO 2: Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+```javascript
+let contador = 10;
+
+while (contador >= 0) {
+    alert (`Contador: ${contador}`);
+    contador--
+}
+```
+DESAFIO 3: Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+```javascript
+let numeroDoUsuario = prompt ('Digite o número para a contagem regressiva');
+
+while (numeroDoUsuario >= 0) {
+    alert (`Contador: ${numeroDoUsuario}`);
+    numeroDoUsuario--
+}
+```
+DESAFIO 4: Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+```javascript
+let numeroDoUsuario = prompt ('Digite o numero para a contagem progressiva');
+let contador = 0
+
+while (contador <= numeroDoUsuario) {
+    console.log(`Contador: ${contador}`);
+    contador++
+}
 ```
