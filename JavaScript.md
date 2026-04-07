@@ -1,7 +1,9 @@
 # JavaScript
-Aqui vou colocar exercícios e desafios simples do primeiro curso.💻✨
+Aqui vou colocar exercícios e desafios simples enquanto aprendo.💻✨
 
-PRIMEIRA ATIVIDADE
+# Curso 1
+
+ATIVIDADE
 ```javascript
 alert ('Bem vindo!!');
 let nome = 'Lua';
@@ -187,4 +189,38 @@ DESAFIO 13: Use o Math.random para gerar um número inteiro entre 1 e 1000 e exi
 ```javascript
 let numeroAleatorio = parseInt(Math.random() * 1000) + 1;
 console.log (numeroAleatorio);
+```
+# Curso 2
+DESAFIO 1: Altere o conteúdo da tag h1 com document.querySelector e atribua o seguinte texto: Hora do Desafio.
+```javascript
+let titulo = document.querySelector('h1');
+titulo.innerHTML = 'Hora do Desafio';
+```
+DESAFIO 2: Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
+```javascript
+function mensagemConsole() {
+    console.log('O botão foi clicado');
+}
+```
+DESAFIO 3: Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado.
+```javascript
+function mensagemAlerta() {
+    console.log('Eu amo JS');
+}
+```
+DESAFIO 4: Crie uma função que é executada quando o botão prompt é clicado, perguntando o nome de uma cidade do Brasil. Em seguida, exiba um alerta com a mensagem concatenando a resposta com o texto: Estive em {cidade} e lembrei de você.
+```javascript
+function mensagemPrompt() {
+    let pergunta = prompt ('Digite uma cidade do Brasil');
+    alert (`Estive em ${pergunta} e lembrei de você`);
+}
+```
+DESAFIO 5: Ao clicar no botão soma, peça 2 números inteiros e exiba o resultado da soma em um alerta.
+```javascript
+function matematica() {
+    let num1 = parseInt(prompt('Digite o primeiro números inteiros'));
+    let num2 = parseInt(prompt('Digite o segundo números inteiros'));
+
+    alert(`A soma de ${num1} + ${num2} é ${num1 + num2} ✨`);
+}
 ```
