@@ -191,6 +191,8 @@ let numeroAleatorio = parseInt(Math.random() * 1000) + 1;
 console.log (numeroAleatorio);
 ```
 # Curso 2
+➤ Interagindo com HTML
+
 DESAFIO 1: Altere o conteúdo da tag h1 com document.querySelector e atribua o seguinte texto: Hora do Desafio.
 ```javascript
 let titulo = document.querySelector('h1');
@@ -223,4 +225,43 @@ function matematica() {
 
     alert(`A soma de ${num1} + ${num2} é ${num1 + num2} ✨`);
 }
+```
+➤ Funções
+
+DESAFIO 1: Criar uma função que exibe "Olá, mundo!" no console.
+```javascript
+function olaMundo() {
+    console.log ('Olá mundo!');
+}
+olaMundo();
+```
+DESAFIO 2: Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+```javascript
+function olaMundo(nome) {
+    console.log (`Olá ${nome}!🤗`)
+}
+olaMundo(Nina)
+```
+DESAFIO 3: Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+```javascript
+function dobro(numero) {
+    return numero * 2;
+}
+let resultadoDobro = dobro(10);
+console.log (resultadoDobro);
+```
+DESAFIO 4: Criar uma função que recebe três números como parâmetros e retorna a média deles.
+```javascript
+function media(a, b, c) {
+    return (a + b + c) / 3;
+}
+console.log (`A média é ${media(5, 6, 7)}`); 
+```
+DESAFIO 5: Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+```javascript
+
+```
+DESAFIO 6:
+```javascript
+
 ```
