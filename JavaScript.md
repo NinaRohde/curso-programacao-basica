@@ -259,9 +259,22 @@ console.log (`A média é ${media(5, 6, 7)}`);
 ```
 DESAFIO 5: Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
 ```javascript
-
+function maiornumero(num1, num2) {
+    if (num1 > num2){
+         return num1;
+    }else {
+        return num2;
+    }
+}
+let resultado = maiornumero(10,7);
+console.log (resultado);
 ```
-DESAFIO 6:
+DESAFIO 6: Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
 ```javascript
+function quadrado(numero) {
+    return numero * numero
+}
 
+let resultado = quadrado(5);
+console.log (resultado);
 ```
