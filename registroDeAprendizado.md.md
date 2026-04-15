@@ -284,3 +284,87 @@ function quadrado(numero) {
 let resultado = quadrado(5);
 console.log (resultado);
 ```
+### 🔸 Reiniciando o jogo
+
+DESAFIO 1: IMC.
+```javascript
+function calcularIMC(peso, altura) {
+    return peso / (altura ** 2);
+}
+
+let imc = calcularIMC(70, 1.70);
+console.log(`Seu IMC é ${imc.toFixed(2)} 🧠`);
+```
+DESAFIO 2: Fatorial de um numero.
+```javascript
+function fatorial(numero) {
+    let resultado = 1;
+
+    while (numero > 1) {
+        resultado *= numero;
+        numero--;
+    }
+
+    return resultado;
+}
+
+let resultado = fatorial(5);
+console.log(resultado);
+```
+DESAFIO 3: Conversão.
+```javascript
+function conversao(dolar) {
+    let valorDolar = 4.80;
+    let valorReais = dolar * valorDolar;
+    return valorReais.toFixed(2);
+}
+
+let valorEmDolar = 10;
+let resultado = conversao(valorEmDolar);
+
+console.log(`$${valorEmDolar} dólares = R$${resultado}`);
+```
+DESAFIO 4: Conversão.
+```javascript
+function conversao(dolar) {
+    let valorDolar = 4.80;
+    let valorReais = dolar * valorDolar;
+    return valorReais.toFixed(2);
+}
+
+let valorEmDolar = 10;
+let resultado = conversao(valorEmDolar);
+
+console.log(`$${valorEmDolar} dólares = R$${resultado}`);
+```
+DESAFIO 4: Conversão.
+```javascript
+function conversao(dolar) {
+    let valorDolar = 4.80;
+    let valorReais = dolar * valorDolar;
+    return valorReais.toFixed(2);
+}
+
+let valorEmDolar = 10;
+let resultado = conversao(valorEmDolar);
+
+console.log(`$${valorEmDolar} dólares = R$${resultado}`);
+```
+DESAFIO 5: Area e Perimetro.
+```javascript
+function sala(altura, largura) {
+    let area = altura * altura;
+    let perimetro = 2 * (altura + altura);
+     console.log (`A area é ${area} e o perimetro é ${perimetro}`);
+}
+sala (5, 3);
+```
+DESAFIO 6: Area e Perimetro.
+```javascript
+function sala(altura, largura) {
+    let area = altura * altura;
+    let perimetro = 2 * (altura + altura);
+     console.log (`A area é ${area} e o perimetro é ${perimetro}`);
+}
+sala (5, 3);
+```
